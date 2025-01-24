@@ -110,6 +110,28 @@ nav a,.a-style{
     color: crimson;
 }
 
+.mobile-icon{   
+    opacity: 1;
+    scale: 0.5;
+    color: goldenrod;
+    animation: mobile-ringer linear 0.5s infinite;    
+}
+
+@keyframes mobile-ringer {
+    0%{
+        opacity: 0;
+        scale: 0.5;
+        color: goldenrod;       
+    }
+    100%{
+        scale: 1.3;
+        opacity: 1;
+        color: #fff;      
+    }    
+}
+
+
+
 .content-alt{
     background-color: #fff;
     width: 100%;    
@@ -130,13 +152,23 @@ nav a,.a-style{
     z-index: 100; 
 } 
 .svg-icons{
-    height: 30px;
+    height: 35px;
     margin-bottom: 10px; 
 }
 .svg-icons:hover{
     scale:1.1
 }
+/* 
+#services{
+  background-color: ;
+} */
 
+.nav-link{   
+    color: #fff;
+}
+.nav-link:hover{
+  color: #fff;
+}
 
 .section-header{
     text-align: center;
@@ -151,6 +183,114 @@ nav a,.a-style{
     margin:10px;
     color:brown;
 }
+
+#kaantoms{
+  padding-bottom: 50px;
+  border:1px solid red;
+}
+
+.nav-tabs{
+    border: none;
+}
+
+#myTabContent{
+    background-color: #fff;
+    padding:20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: max-content;   
+    border:1px solid green;
+    padding-top: 50px;
+    border-top-right-radius: 10px;
+}
+
+#english ul{    
+    list-style-type: circle;
+}
+
+#english ul li {
+    line-height: 1.8;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+/* .content-left{
+    transform: translateX(-120%);
+    animation: left-anim linear;   
+    animation-timeline: view();
+}
+
+@keyframes left-anim {
+   0%{
+     transform: translateX(-150%);
+   }
+   100%{
+     transform: translateX(50%);
+   }
+    
+} */
+
+/* @keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.content-left {
+    animation: slide-in linear forwards;
+    animation-timeline: scroll();
+    scroll-timeline: view();
+} */
+
+
+
+.region{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: max-content;
+}
+
+#contact-form{
+  border: 1px solid #fff;
+  padding: 20px 10px;  
+  width: 100%;
+  border-radius: 10px;
+}
+
+#contact-form label{
+  color: #fff;
+}
+
+#contact-form input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+
+}
+
+#submit{
+    margin-top: 10px;
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    border:1px solid #fff;
+  
+}
+
+
+.card-text{
+   text-align: justify;
+ }
 
 .footer{
     position: fixed;

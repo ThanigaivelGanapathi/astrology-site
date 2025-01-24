@@ -96,7 +96,7 @@ nav a,.a-style{
     z-index: 100; 
 } 
 .svg-icons{
-    height: 30px;
+    height: 35px;
     margin-bottom: 10px; 
 }
 .svg-icons:hover{
@@ -121,6 +121,14 @@ nav a,.a-style{
 #contact-us{
    margin-bottom: 50px;
 }
+
+
+.region{
+    margin-bottom: 20px;
+}
+
+
+
 
 .footer{
     position: fixed;
