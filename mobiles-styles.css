@@ -108,14 +108,16 @@ nav a,.a-style{
     text-align: center;
     padding:10px;
     margin:10px;
-    color:#fff;    
+    color:#fff;
+    font-size:1.3rem       
 }
 
 .section-header-alt{
     text-align: center;
     padding:10px;
-    margin:10px;
+    margin:15px;
     color:brown;
+    font-size: 1.1rem;
 }
 
 #contact-us{
@@ -127,9 +129,26 @@ nav a,.a-style{
     margin-bottom: 20px;
 }
 
+#myTabContent ul li{
+    font-size: 0.9rem;
+}
+ 
 
 
-
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top:10px;    
+    z-index: 100;
+    text-align: center;
+    box-shadow: 1px 5px 8px 5px grey; 
+    background: #c31432;   
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+  
 .footer{
     position: fixed;
     bottom: 0;
@@ -142,17 +161,20 @@ nav a,.a-style{
     background-color: #fff;
 }
 
+.footer-txt{
+    color:#fff;
+}
+
 .footer-brand-txt{
-   color: crimson;
-   font-weight: 500;
-   text-decoration: underline;
+   color: gold;
+   font-weight: 600;    
 }
 
 .footer-brand-txt:hover{
     cursor: pointer;
+    text-decoration: none;
+    color: goldenrod;
 }
-
-
 
 .scroll{
  color:green;
