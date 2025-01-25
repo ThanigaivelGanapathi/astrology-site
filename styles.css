@@ -172,14 +172,15 @@ nav a,.a-style{
 
 .section-header{
     text-align: center;
-    padding:10px;
+    padding:25px 10px;
     margin:10px;
-    color:#fff;    
+    color:#fff;   
+    /* text-shadow: 1px 1px 5px #000;     */
 }
 
 .section-header-alt{
     text-align: center;
-    padding:10px;
+    padding:25px 10px;
     margin:10px;
     color:brown;
 }
@@ -198,8 +199,7 @@ nav a,.a-style{
     padding:20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    height: max-content;   
-    border:1px solid green;
+    height: max-content;       
     padding-top: 50px;
     border-top-right-radius: 10px;
 }
@@ -283,16 +283,28 @@ nav a,.a-style{
     background-color: green;
     color: #fff;
     border-radius: 10px;
-    border:1px solid #fff;
+    border:1px solid #eee;
   
 }
 
+.card{
+    border-radius: 15px;
+    padding:5px;
+    box-shadow: 1px 1px 10px 3px #eee;
+}
+
+.card-img-top{
+    border-top-left-radius:  15px;
+    border-top-right-radius:  15px;
+}
+
 .card-title{
-    color: brown;
+    color: brown;    
 }
 
 .card-text{
    text-align: justify;
+   color: #000!important;
  }
 
 .footer{
@@ -329,7 +341,7 @@ nav a,.a-style{
 
 /* chapters */
 
-#chapters,#naadiHistory{
+#chapters,#naadiHistory,#kandoms,#services{
     margin-top:-10px;
     margin-bottom: 50px;  
     background-color: #F4F6FF;   
